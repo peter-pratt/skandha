@@ -400,12 +400,12 @@ const bundlerDefaultConfigs: BundlerConfig = {
   relayingMode: "classic",
   canonicalMempoolId: "",
   canonicalEntryPoint: "",
-  pvgMarkup: 0,
-  cglMarkup: 35000,
+  pvgMarkup: 20000,
+  cglMarkup: 40000,
   vglMarkup: 0,
   pvgMarkupPercent: 0,
-  cglMarkupPercent: 0,
-  vglMarkupPercent: 3000, // 30%
+  cglMarkupPercent: 3000, // 30%
+  vglMarkupPercent: 4000, // 30%
   gasFeeInSimulation: false,
   merkleApiURL: "https://pool.merkle.io",
   skipBundleValidation: false,
